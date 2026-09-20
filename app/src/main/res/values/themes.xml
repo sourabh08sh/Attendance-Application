@@ -1,0 +1,5 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. Compose supplies the real theming (see ui/theme/Theme.kt);
+         this just needs to exist so the Activity has a valid Android theme before setContent runs. -->
+    <style name="Theme.AttendanceApp" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

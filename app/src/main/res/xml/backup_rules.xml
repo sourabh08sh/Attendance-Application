@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Attendance selfies and the local DB stay on-device only; nothing is auto-backed-up
+         to avoid leaking staff photos/PII via cloud backup. -->
+    <exclude domain="database" path="." />
+    <exclude domain="file" path="." />
+</full-backup-content>
